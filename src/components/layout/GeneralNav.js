@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
-
+//Link to changes the url of the website
 function GeneralNav() {
   return (
     <div>
       <nav>
         <ul>
           <li>
-            <Link to="/"> Blog </Link>
+            <Link to="/"> Blog Posts </Link>
           </li>
           <li>
             <Link to="/about-me"> About me </Link>
-          </li>
-          <li>
-            <Link to="/blog-input"> Add blog posts</Link>
           </li>
         </ul>
       </nav>

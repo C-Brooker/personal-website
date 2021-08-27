@@ -1,12 +1,13 @@
 import GeneralNav from "../layout/GeneralNav";
+import BlogInputCard from "../cards/BlogInputCard";
 
-function BlogInput() {
+function BlogInput(props) {
   return (
     <div>
-      <div>blogInput</div>
+      <BlogInputCard />
       <GeneralNav />
     </div>
   );
 }
 
-export default GeneralNav;
+export default BlogInput;
