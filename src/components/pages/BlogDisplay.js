@@ -12,8 +12,6 @@ function BlogDisplay() {
   const [blogPosts, setBlogPosts] = useState([]);
   const blogList = Object.values(blogPosts).reverse();
   const initial = blogList.slice(0, 4);
-  console.log("bloglisttt: ", blogList);
-  console.log("initialllll: ", initial);
   //set which page will display for blog posts
   const [showPosts, setShowPosts] = useState([]);
   //function to perform fetch request
@@ -40,15 +38,10 @@ function BlogDisplay() {
   const buttons = numbersOnButtons(blogList, 3);
 
   const clickHandler = (e) => {
-    // const intId = parseInt(id);
     const buttonValue = parseInt(e.target.id);
     const postsToShow = whichPage(buttonValue, 4, blogList);
     setShowPosts(postsToShow);
   };
-
-  // const displayPosts = showPosts ? showPosts : blogList.slice(0, 4);
-  console.log(showPosts);
-  // console.log(initialPosts);
   return (
     <div>
       <TitleBanner>blogDisplay</TitleBanner>
