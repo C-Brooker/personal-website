@@ -1,5 +1,6 @@
 import { useRef } from "react"; //useRef allows you to reference inputs
 import { useHistory } from "react-router-dom"; //useHistory controls the link
+import { v4 as uuidv4 } from "uuid";
 
 function BlogInputCard() {
   //Calling and Storing these functions to use them
@@ -16,6 +17,10 @@ function BlogInputCard() {
     const mainTitle = titleEntered.current.value;
     const mainImage = imageEntered.current.value;
     const mainContent = contentEntered.current.value;
+
+    //Create unique key for each post
+    const key = uuidv4();
+
     //Create a new instance of the data class
     const date = new Date();
 
@@ -28,6 +33,7 @@ function BlogInputCard() {
     };
 
     const blogEntry = {
+      key: key,
       title: mainTitle,
       image: mainImage,
       content: mainContent,
