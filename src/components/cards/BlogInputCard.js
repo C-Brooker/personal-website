@@ -45,7 +45,7 @@ function BlogInputCard() {
       return `Posted at ${hour}:${minutes} on ${day}/${month}/${year}`;
     }
     //Fetch communicates with the database
-    const response = await fetch(
+    await fetch(
       "https://my-personal-website-e872c-default-rtdb.firebaseio.com/blog/posts.json",
       {
         //Tells the server what to do with the database, the methods are: POST, GET, PUT, PATCH, DELETE
@@ -56,7 +56,6 @@ function BlogInputCard() {
         },
       }
     );
-    console.log(blogEntry);
     history.push("/");
   }
 

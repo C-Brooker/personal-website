@@ -1,5 +1,4 @@
 function BlogCard(props) {
-  const { time, ...rest } = props;
   return (
     <div>
       <div>

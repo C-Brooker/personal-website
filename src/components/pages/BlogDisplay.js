@@ -1,5 +1,5 @@
 import AboutMeNav from "../layout/AboutMeNav";
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 // import DataAssigner from "../containers/BlogPostList";
 import BlogPostList from "../BlogPostFunctionality.js/BlogPostList";
 import TitleBanner from "../banners/TitleBanner";
@@ -54,14 +54,16 @@ function BlogDisplay() {
         <ul>
           {buttons.slice(1).map((button) => {
             return (
-              <div>
-                <button
-                  id={`${button}`}
-                  onClick={(button) => clickHandler(button)}
-                >
-                  {button}
-                </button>
-              </div>
+              <li key={button}>
+                <div>
+                  <button
+                    id={`${button}`}
+                    onClick={(button) => clickHandler(button)}
+                  >
+                    {button}
+                  </button>
+                </div>
+              </li>
             );
           })}
         </ul>

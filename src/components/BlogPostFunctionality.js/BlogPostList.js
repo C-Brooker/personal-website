@@ -1,7 +1,6 @@
 import BlogCard from "../cards/BlogCard";
 
 function BlogPostList(props) {
-  const { blogposts, ...arr } = props;
   //Takes in blogposts as a parameter from BlogDisplay page
 
   return (
