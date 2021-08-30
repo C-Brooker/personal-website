@@ -3,8 +3,9 @@
   display: flex;
   text-decoration: none;
   justify-content: center;
-  margin-left: 25px;
-  margin-right: 45px;
-  font-weight: bold;
+  margin-left: 1.6rem;
+  margin-right: 3.15rem;
   font-family: monospace;
+  font-weight: bold;
+  font-size: 0.9rem;
 }
