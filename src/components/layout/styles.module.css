@@ -1,0 +1,10 @@
+.generalNavList {
+  list-style: none;
+  display: flex;
+  text-decoration: none;
+  justify-content: center;
+  margin-left: 25px;
+  margin-right: 45px;
+  font-weight: bold;
+  font-family: monospace;
+}

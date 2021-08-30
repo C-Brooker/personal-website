@@ -1,15 +1,26 @@
 import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
 //Link to changes the url of the website
 function GeneralNav() {
   return (
     <div>
       <nav>
-        <ul>
+        <ul className={styles.generalNavList}>
           <li>
-            <Link to="/"> Blog Posts </Link>
+            <div>
+              <Link className={styles.generalNavList} to="/">
+                {" "}
+                Blog Posts{" "}
+              </Link>
+            </div>
           </li>
           <li>
-            <Link to="/about-me"> About me </Link>
+            <div>
+              <Link className={styles.generalNavList} to="/about-me">
+                {" "}
+                About me{" "}
+              </Link>
+            </div>
           </li>
         </ul>
       </nav>

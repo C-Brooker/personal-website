@@ -5,7 +5,9 @@ function BlogInput(props) {
   return (
     <div>
       <BlogInputCard />
-      <GeneralNav />
+      <div>
+        <GeneralNav />
+      </div>
     </div>
   );
 }
