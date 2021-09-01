@@ -1,0 +1,33 @@
+.BtnContainer {
+  top: 40%;
+  position: sticky;
+  float: right;
+}
+
+.aboutMeBtn {
+  justify-content: center;
+  display: flex;
+  width: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  background: none;
+  color: white;
+  border: none;
+}
+
+.aboutMeBtn:hover {
+  color: lightskyblue;
+}
+.aboutMeBtn:focus {
+  transition-duration: 0.8s;
+  font-size: 1.1rem;
+}
+
+.backgroundImage {
+  margin: 0;
+  background-image: url("https://images.unsplash.com/photo-1454496522488-7a8e488e8606?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW58ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 105rem;
+}

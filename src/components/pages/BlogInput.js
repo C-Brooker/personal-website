@@ -1,9 +1,10 @@
 import GeneralNav from "../layout/GeneralNav";
 import BlogInputCard from "../cards/BlogInputCard";
+import styles from "./styles.module.css";
 
 function BlogInput(props) {
   return (
-    <div>
+    <div className={styles.backgroundImage}>
       <BlogInputCard />
       <div>
         <GeneralNav />

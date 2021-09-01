@@ -9,3 +9,26 @@
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+.blogDisplayLink {
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  top: 0;
+  color: white;
+}
+
+.blogDisplayLink:hover {
+  color: lightskyblue;
+}
+
+.blogDisplayList {
+  writing-mode: vertical-rl;
+  list-style: none;
+}
+
+.stickyLink {
+  top: 33%;
+  display: flex;
+  position: sticky;
+}

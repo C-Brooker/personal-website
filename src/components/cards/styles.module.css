@@ -58,3 +58,19 @@
   background-color: lightcyan;
   transition-duration: 1s;
 }
+.aboutMeCard {
+  background-color: white;
+  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: none;
+  margin-left: 16rem;
+  margin-right: 16rem;
+  position: relative;
+  border-color: black;
+  color: lightskyblue;
+  top: 10rem;
+  margin-top: 2rem;
+  height: 13rem;
+  font-family: monospace;
+  background-color: white;
+}

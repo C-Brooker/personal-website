@@ -2,7 +2,7 @@ import BlogDisplayNav from "../layout/BlogDisplayNav";
 import AboutMeCard from "../cards/AboutMeCard";
 import Footer from "../layout/Footer";
 import TitleBanner from "../banners/TitleBanner";
-import SubtitleBanner from "../banners/SubtitleBanner";
+import styles from "./styles.module.css";
 
 function AboutMe() {
   const scrollToTop = (id) => {
@@ -12,10 +12,11 @@ function AboutMe() {
     });
   };
   return (
-    <div>
-      <SubtitleBanner>My personal Website</SubtitleBanner>
-      <div>
+    <div className={styles.backgroundImage}>
+      <BlogDisplayNav />
+      <div className={styles.BtnContainer}>
         <button
+          className={styles.aboutMeBtn}
           onClick={() => {
             scrollToTop(5);
           }}
@@ -23,6 +24,7 @@ function AboutMe() {
           Bio
         </button>
         <button
+          className={styles.aboutMeBtn}
           onClick={() => {
             scrollToTop(40);
           }}
@@ -30,29 +32,31 @@ function AboutMe() {
           Employment
         </button>
         <button
+          className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(100);
+            scrollToTop(300);
           }}
         >
           Education
         </button>
         <button
+          className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(175);
+            scrollToTop(700);
           }}
         >
           Skills
         </button>
         <button
+          className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(300);
+            scrollToTop(1200);
           }}
         >
           Hobbies
         </button>
       </div>
       <TitleBanner>About me</TitleBanner>
-      <BlogDisplayNav />
       <div id="bio">
         <AboutMeCard>
           <h2>Bio</h2>
@@ -82,7 +86,9 @@ function AboutMe() {
           <h2>Hobbies</h2>
           <p>Hello Hello</p>
         </AboutMeCard>
-        <Footer />
+        <div>
+          <Footer />
+        </div>
       </div>
     </div>
   );

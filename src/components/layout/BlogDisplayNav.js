@@ -1,15 +1,16 @@
 import { Link } from "react-router-dom";
+import styles from "./styles.module.css";
 
 function BlogDisplayNav() {
   return (
-    <div>
+    <div className={styles.stickyLink}>
       <nav>
-        <ul>
+        <ul className={styles.blogDisplayList}>
           <li>
-            <Link to="/"> Blog posts </Link>
-          </li>
-          <li>
-            <Link to="/blog-input"> Add blog posts</Link>
+            <Link className={styles.blogDisplayLink} to="/">
+              {" "}
+              Blog posts{" "}
+            </Link>
           </li>
         </ul>
       </nav>
