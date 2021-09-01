@@ -59,18 +59,69 @@
   transition-duration: 1s;
 }
 .aboutMeCard {
-  background-color: white;
+  background-color: #fcf75e;
   box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.2);
   text-align: center;
-  border: none;
+  border-style: solid;
   margin-left: 16rem;
   margin-right: 16rem;
   position: relative;
   border-color: black;
-  color: lightskyblue;
+  color: black;
   top: 10rem;
   margin-top: 2rem;
   height: 13rem;
+  font-family: serif;
+}
+
+.blogCard {
+  background-color: white;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border: none;
+  position: relative;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  width: 100%;
+  top: 0;
+  margin-top: 0.5rem;
+  height: 13rem;
   font-family: monospace;
   background-color: white;
+  display: flex;
+  font-size: 8px;
+}
+
+.blogTitle {
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.blogContent {
+  font-size: 2vh;
+  display: block;
+  width: 100%;
+  height: 30vh;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.blogContent::-webkit-scrollbar {
+  width: 1vh;
+}
+.blogContent::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+.blogContent::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+.blogContent::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.blogTime {
+  font-weight: bold;
+  font-size: 2vh;
 }

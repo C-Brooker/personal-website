@@ -12,14 +12,14 @@
 
 .blogDisplayLink {
   text-decoration: none;
-  font-family: monospace;
+  font-family: serif;
   font-weight: bold;
   top: 0;
-  color: white;
+  color: black;
 }
 
 .blogDisplayLink:hover {
-  color: lightskyblue;
+  text-decoration: underline;
 }
 
 .blogDisplayList {
@@ -27,8 +27,29 @@
   list-style: none;
 }
 
+.aboutMeLink {
+  text-decoration: none;
+  font-family: serif;
+  font-weight: bold;
+  top: 0;
+  color: black;
+}
+
+.aboutMeLink:hover {
+  text-decoration: underline;
+}
+
+.aboutMeList {
+  writing-mode: vertical-rl;
+  list-style: none;
+}
+
 .stickyLink {
-  top: 33%;
+  top: 33.5%;
   display: flex;
   position: sticky;
+}
+
+.footerImage {
+  width: 3rem;
 }

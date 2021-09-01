@@ -1,11 +1,12 @@
 import AboutMeNav from "../layout/AboutMeNav";
 import { useState, useEffect } from "react";
-// import DataAssigner from "../containers/BlogPostList";
 import BlogPostList from "../BlogPostFunctionality.js/BlogPostList";
-import TitleBanner from "../banners/TitleBanner";
+import BlogTitleBanner from "../banners/BlogTitleBanner";
 import Footer from "../layout/Footer";
-
 import { whichPage, numbersOnButtons } from "../utility/pagination.js";
+import ScrollToTop from "../layout/Scroller";
+import styles from "./styles.module.css";
+import BlogContainer from "../containers/BlogContainer";
 
 function BlogDisplay() {
   //useState hook sets the initial state in the component as an empty array
@@ -44,32 +45,38 @@ function BlogDisplay() {
   };
   return (
     <div>
-      <TitleBanner>blogDisplay</TitleBanner>
-      <hr />
+      <BlogTitleBanner>My Blog</BlogTitleBanner>
       <AboutMeNav />
-      <hr />
-      <BlogPostList blogposts={showPosts == ![] ? initial : showPosts} />
-      <hr />
       <div>
-        <ul>
-          {buttons.slice(1).map((button) => {
-            return (
-              <li key={button}>
-                <div>
-                  <button
-                    id={`${button}`}
-                    onClick={(button) => clickHandler(button)}
-                  >
-                    {button}
-                  </button>
-                </div>
-              </li>
-            );
-          })}
-        </ul>
+        <BlogContainer>
+          <BlogPostList blogposts={showPosts == ![] ? initial : showPosts} />
+          <div>
+            <ul className={styles.blogBtnList}>
+              {buttons.slice(1).map((button) => {
+                return (
+                  <li key={button}>
+                    <div>
+                      <button
+                        className={styles.blogDisplayBtn}
+                        id={`${button}`}
+                        onClick={(button) => clickHandler(button)}
+                      >
+                        {button}
+                      </button>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </BlogContainer>
       </div>
-      <hr />
-      <Footer />
+      <div className={styles.blogFooter}>
+        <Footer />
+      </div>
+      <div className={styles.hidden}>
+        <ScrollToTop />
+      </div>
     </div>
   );
 }

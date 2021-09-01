@@ -1,8 +1,19 @@
-.titleBanner {
+.aboutTitleBanner {
+  position: absolute;
+  top: 1vh;
+  margin-left: 34.5%;
+  font-weight: bold;
+  font-size: 5rem;
+  color: black;
+  font-family: serif;
+  cursor: default;
+}
+
+.blogTitleBanner {
   text-align: center;
   font-weight: bold;
-  font-family: sans-serif;
+  font-family: serif;
   font-size: 5rem;
-  color: white;
-  margin-left: 6rem;
+  color: black;
+  cursor: default;
 }

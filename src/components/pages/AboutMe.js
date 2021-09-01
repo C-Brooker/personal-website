@@ -3,16 +3,21 @@ import AboutMeCard from "../cards/AboutMeCard";
 import Footer from "../layout/Footer";
 import TitleBanner from "../banners/TitleBanner";
 import styles from "./styles.module.css";
+import { useEffect } from "react";
 
 function AboutMe() {
-  const scrollToTop = (id) => {
+  const scrollToTop = (id = 0) => {
     window.scrollTo({
       top: id,
       behavior: "smooth",
     });
   };
+
+  useEffect(() => {
+    scrollToTop();
+  }, []);
   return (
-    <div className={styles.backgroundImage}>
+    <div>
       <BlogDisplayNav />
       <div className={styles.BtnContainer}>
         <button
@@ -60,33 +65,33 @@ function AboutMe() {
       <div id="bio">
         <AboutMeCard>
           <h2>Bio</h2>
-          <p>Hello Hello</p>
+          <p className={styles.aboutMeContent}>Hello Hello</p>
         </AboutMeCard>
       </div>
       <div id="employment">
         <AboutMeCard>
           <h2>Employment</h2>
-          <p>Hello Hello</p>
+          <p className={styles.aboutMeContent}>Hello Hello</p>
         </AboutMeCard>
       </div>
       <div id="education">
         <AboutMeCard>
           <h2>Education</h2>
-          <p>Hello Hello</p>
+          <p className={styles.aboutMeContent}>Hello Hello</p>
         </AboutMeCard>
       </div>
       <div id="skills">
         <AboutMeCard>
           <h2>Skills</h2>
-          <p>Hello Hello</p>
+          <p className={styles.aboutMeContent}>Hello Hello</p>
         </AboutMeCard>
       </div>
       <div id="12">
         <AboutMeCard>
           <h2>Hobbies</h2>
-          <p>Hello Hello</p>
+          <p className={styles.aboutMeContent}>Hello Hello</p>
         </AboutMeCard>
-        <div>
+        <div className={styles.footer}>
           <Footer />
         </div>
       </div>

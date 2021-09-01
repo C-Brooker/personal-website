@@ -1,0 +1,8 @@
+.blogContainer {
+  border-style: solid;
+  width: 75%;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  background-color: #fcf75e;
+}

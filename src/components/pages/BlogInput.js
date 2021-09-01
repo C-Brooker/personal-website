@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 function BlogInput(props) {
   return (
-    <div className={styles.backgroundImage}>
+    <div>
       <BlogInputCard />
       <div>
         <GeneralNav />

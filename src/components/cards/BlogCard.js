@@ -1,12 +1,13 @@
+import styles from "./styles.module.css";
+
 function BlogCard(props) {
   return (
-    <div>
+    <div className={styles.blogCard}>
       <div>
-        <img src={props.url} alt={props.title} />
+        <div className={styles.blogTitle}>{props.title}</div>
+        <div className={styles.blogContent}>{props.content}</div>
+        <div className={styles.blogTime}>{props.time}</div>
       </div>
-      <div>{props.title}</div>
-      <div>{props.content}</div>
-      <div>{props.time}</div>
     </div>
   );
 }

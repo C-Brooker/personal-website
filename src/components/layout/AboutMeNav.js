@@ -1,16 +1,17 @@
 import { Link } from "react-router-dom";
 import React from "react";
+import styles from "./styles.module.css";
 
 function AboutMeNav() {
   return (
-    <div>
+    <div className={styles.stickyLink}>
       <nav>
-        <ul>
+        <ul className={styles.aboutMeList}>
           <li>
-            <Link to="/about-me"> About me </Link>
-          </li>
-          <li>
-            <Link to="/blog-input"> Add blog posts </Link>
+            <Link className={styles.aboutMeLink} to="/about-me">
+              {" "}
+              About me{" "}
+            </Link>
           </li>
         </ul>
       </nav>

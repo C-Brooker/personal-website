@@ -1,10 +1,12 @@
 import BlogCard from "../cards/BlogCard";
 
+import styles from "./styles.module.css";
+
 function BlogPostList(props) {
   //Takes in blogposts as a parameter from BlogDisplay page
 
   return (
-    <ul>
+    <ul className={styles.blogList}>
       {/* <Buttonfunctionality buttons={numOfPosts} /> */}
       {/* Takes in blogposts and performs a logical operation using {}
       Maps all of the items of the array to the DataItems function *like looping through the array
