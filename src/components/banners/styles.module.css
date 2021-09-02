@@ -1,12 +1,12 @@
 .aboutTitleBanner {
-  position: absolute;
-  top: 1vh;
-  margin-left: 34.5%;
+  display: flex;
   font-weight: bold;
-  font-size: 5rem;
+  font-size: 4rem;
   color: black;
   font-family: serif;
   cursor: default;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .blogTitleBanner {
