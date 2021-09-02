@@ -51,6 +51,7 @@
   height: 9rem;
   overflow: auto;
   font-size: 0.9rem;
+  margin-bottom: 0.7rem;
 }
 
 /* @media (min-width: 850px) {
@@ -116,4 +117,21 @@
 
 .hidden {
   display: none;
+}
+
+.topHeader {
+  margin-top: 0;
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.header {
+  text-decoration: underline;
+  font-size: 0.8rem;
+}
+
+.aboutMeList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }

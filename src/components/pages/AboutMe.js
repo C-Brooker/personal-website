@@ -66,25 +66,22 @@ function AboutMe() {
         <AboutMeCard>
           <h2>Bio</h2>
           <div>
-            <p className={styles.aboutMeContent}>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and yet I feel that
-              I never was a greater artist than now. When, while the lovely
-              valley teems with vapour around me, and the meridian sun strikes
-              the upper surface of the impenetrable foliage of my trees, and but
-              a few stray gleams steal into the inner sanctuary, I throw myself
-              down among the tall grass by the trickling stream; and, as I lie
-              close to the earth, a thousand unknown plants are noticed by me:
-              when I hear the buzz of the little world among the stalks, and
-              grow familiar with the countless indescribable forms of the
-              insects and flies, then I feel the presence of the Almighty, who
-              formed us in his own image
-            </p>
+            <div className={styles.aboutMeContent}>
+              As someone who enjoys being both creative and innovative I found
+              that creating something out of nothing through coding was a great
+              experience that I definitely wanted to grow at. I initially
+              started by learning the fundamentals of Python to get a simple
+              understanding of key-programming constructs and from this I
+              decided to branch out into front-end development using JavaScript,
+              HTML5, CSS3 and React to create the website you are using now.
+              From completing this website I learned how to effectively learn
+              and apply new programming concepts. For the future, I want to
+              continously develop my coding ability as well as diversify my
+              skill-set. Because of this, while expanding my knowledge of React
+              and Javascript, I will also begin teaching myself Java so that
+              eventually I will be able to effectively tackle full-stack
+              problems.
+            </div>
           </div>
         </AboutMeCard>
       </div>
@@ -92,25 +89,60 @@ function AboutMe() {
         <AboutMeCard>
           <h2>Employment</h2>
           <div>
-            <p className={styles.aboutMeContent}>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and yet I feel that
-              I never was a greater artist than now. When, while the lovely
-              valley teems with vapour around me, and the meridian sun strikes
-              the upper surface of the impenetrable foliage of my trees, and but
-              a few stray gleams steal into the inner sanctuary, I throw myself
-              down among the tall grass by the trickling stream; and, as I lie
-              close to the earth, a thousand unknown plants are noticed by me:
-              when I hear the buzz of the little world among the stalks, and
-              grow familiar with the countless indescribable forms of the
-              insects and flies, then I feel the presence of the Almighty, who
-              formed us in his own image
-            </p>
+            <div className={styles.aboutMeContent}>
+              <h5 className={styles.topHeader}>
+                Jp Morgan - Insight (Jul 21 - Aug 21)
+              </h5>
+              - Performed technical research into multiple crypto currencies
+              before pitching our strongest investment opportunity employees and
+              fellow work experience participants.
+              <br />
+              - Attended seminars where I learned about different roles at the
+              company including investment banking, corporate banking,
+              commodities, asset management and cyber-security.
+              <br />- Proactively organised meetings with existing employees to
+              learn more about their roles and experiences with JP Morgan.{" "}
+              <h5 className={styles.header}>
+                InvestIn - Insight (Jul 21 - Aug 21)
+              </h5>
+              - Participated in aninvestment challenge where I performed
+              investment research for multiple companies and composed a
+              portfolio to maximise returns along with a group of fellow
+              students, achieving second place.
+              <br /> - Completed case study with fellow students where we
+              advised BMW on valuation for an acquisition by Volkswagen.
+              <br /> - Participated in simulated trading competition where I
+              achieved 200% returns.
+              <br /> - Performed SWOT analysis to during qualitative analysis of
+              potential investments.
+              <br /> - Attended valuation workshops where I learned about
+              technical analysis and fundamental analysis.
+              <h5 className={styles.header}>PwC - Insight (Jul 21)</h5>
+              -Participated in data cleansing and exploration workshop where I
+              learned how to extract key insights from data using Excel.
+              <br /> - Attended a technology workshop where I learned about the
+              applications of digital audit and data analytics.
+              <br /> - Participated in networking events and proactively set up
+              meetings with employees to learn about their roles.
+              <h5 className={styles.header}>
+                Mcdonalds - Crew member (Aug 19 -)
+              </h5>
+              - Working part-time alongside my A-levels studies.
+              <br /> - Providing excellent customer service to hundreds of
+              customers on a daily basis.
+              <br /> - Meeting tight deadlines to produce orders on time.
+              <br /> - Trained across tills, cooking appliances and restaurant
+              floor to become a versatile team member.
+              <h5 className={styles.header}>
+                Newspaper Courier (Aug 17- Jul 19)
+              </h5>
+              - Delivered hundreds of papers weekly to the correct address every
+              morning before school.
+              <br /> - Building relationships with the shops customers through
+              friendly conversation.
+              <br /> - Optimized the route to maximize the efficiency and
+              accuracy of delivery.
+            </div>
           </div>
         </AboutMeCard>
       </div>
@@ -118,25 +150,28 @@ function AboutMe() {
         <AboutMeCard>
           <h2>Education</h2>
           <div>
-            <p className={styles.aboutMeContent}>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and yet I feel that
-              I never was a greater artist than now. When, while the lovely
-              valley teems with vapour around me, and the meridian sun strikes
-              the upper surface of the impenetrable foliage of my trees, and but
-              a few stray gleams steal into the inner sanctuary, I throw myself
-              down among the tall grass by the trickling stream; and, as I lie
-              close to the earth, a thousand unknown plants are noticed by me:
-              when I hear the buzz of the little world among the stalks, and
-              grow familiar with the countless indescribable forms of the
-              insects and flies, then I feel the presence of the Almighty, who
-              formed us in his own image
-            </p>
+            <div className={styles.aboutMeContent}>
+              <h5 className={styles.topHeader}>A-Levels (2019 - 2021)</h5>
+              Clacton County High School Sixth Form
+              <br />
+              Mathematics (B)
+              <br />
+              Computer Science (C)
+              <br />
+              Information Technology (D*)
+              <h5 className={styles.header}>GCSEs (2014 - 2019)</h5>
+              Clacton County High School
+              <br />
+              9 GCSE’s grade 4-9
+              <br />
+              including:
+              <br />
+              Mathematics (9)
+              <br />
+              Computer Science (7)
+              <br />
+              Physics (6)
+            </div>
           </div>
         </AboutMeCard>
       </div>
@@ -144,25 +179,30 @@ function AboutMe() {
         <AboutMeCard>
           <h2>Skills</h2>
           <div>
-            <p className={styles.aboutMeContent}>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and yet I feel that
-              I never was a greater artist than now. When, while the lovely
-              valley teems with vapour around me, and the meridian sun strikes
-              the upper surface of the impenetrable foliage of my trees, and but
-              a few stray gleams steal into the inner sanctuary, I throw myself
-              down among the tall grass by the trickling stream; and, as I lie
-              close to the earth, a thousand unknown plants are noticed by me:
-              when I hear the buzz of the little world among the stalks, and
-              grow familiar with the countless indescribable forms of the
-              insects and flies, then I feel the presence of the Almighty, who
-              formed us in his own image
-            </p>
+            <div className={styles.aboutMeContent}>
+              <ul className={styles.aboutMeList}>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>React</li>
+                <li>Microsoft Excel</li>
+                <li>Microsoft Office</li>
+                <li>Research</li>
+                <li>Sales</li>
+                <li>Strategy</li>
+                <li>Social Media</li>
+                <li>Customer Relationship Management (CRM)</li>
+                <li>Leadership</li>
+                <li>Problem Solving</li>
+                <li>Conflict Resolution</li>
+                <li>Communication</li>
+                <li>Presentations</li>
+                <li>Organization Skills</li>
+                <li>Time Management</li>
+                <li>English</li>
+              </ul>
+            </div>
           </div>
         </AboutMeCard>
       </div>
@@ -170,25 +210,24 @@ function AboutMe() {
         <AboutMeCard>
           <h2>Hobbies</h2>
           <div>
-            <p className={styles.aboutMeContent}>
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-              I am alone, and feel the charm of existence in this spot, which
-              was created for the bliss of souls like mine. I am so happy, my
-              dear friend, so absorbed in the exquisite sense of mere tranquil
-              existence, that I neglect my talents. I should be incapable of
-              drawing a single stroke at the present moment; and yet I feel that
-              I never was a greater artist than now. When, while the lovely
-              valley teems with vapour around me, and the meridian sun strikes
-              the upper surface of the impenetrable foliage of my trees, and but
-              a few stray gleams steal into the inner sanctuary, I throw myself
-              down among the tall grass by the trickling stream; and, as I lie
-              close to the earth, a thousand unknown plants are noticed by me:
-              when I hear the buzz of the little world among the stalks, and
-              grow familiar with the countless indescribable forms of the
-              insects and flies, then I feel the presence of the Almighty, who
-              formed us in his own image
-            </p>
+            <div className={styles.aboutMeContent}>
+              <h5 className={styles.topHeader}>Investing</h5>I have recently
+              started to invest into the crypto-currency markets, using my wages
+              from McDonalds. In order to maximise my returns, I consistently
+              perform thorough market research and make sure that I am up to
+              date with relevant news.
+              <h5 className={styles.header}>Running</h5>I initially started
+              running as a simple challenge of the couch to 5k. However, from
+              doing this challenge I developed a love for running long distances
+              and developing my own mental fortitude to consistently push myself
+              further. Now, I frequently organise trail-runs with my friends as
+              I find it is a scenic way to enjoy my passion for running
+              <h5 className={styles.header}>Cooking</h5> I enjoy exercising my
+              creativity thorough learning and practising new recipes. It is
+              always interesting to turn individual items into a dish that is
+              stunning to look at, tastes phenomenal and provides me with the
+              opportunity to expand my cookery ability.
+            </div>
           </div>
         </AboutMeCard>
       </div>
