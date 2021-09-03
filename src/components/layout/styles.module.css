@@ -50,6 +50,12 @@
   position: sticky;
 }
 
+.aStickyLink {
+  top: 55%;
+  display: flex;
+  position: sticky;
+}
+
 .footerImage {
   width: 2rem;
 }

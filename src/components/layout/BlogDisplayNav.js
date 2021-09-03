@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 function BlogDisplayNav() {
   return (
-    <div className={styles.stickyLink}>
+    <div className={styles.aStickyLink}>
       <nav>
         <ul className={styles.blogDisplayList}>
           <li>

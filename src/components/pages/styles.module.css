@@ -1,5 +1,5 @@
 .BtnContainer {
-  top: 40%;
+  top: 60%;
   position: sticky;
   float: right;
 }
@@ -13,7 +13,7 @@
   background: none;
   color: black;
   border: none;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
 }
 
 .aboutMeBtn:hover {
@@ -22,24 +22,68 @@
 }
 .aboutMeBtn:focus {
   transition-duration: 0.8s;
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 720px) {
+  .aboutMeBtn {
+    font-size: 0.75rem;
+    width: 5.3rem;
+  }
+  .aboutMeBtn:focus {
+    transition-duration: 0.8s;
+    font-size: 1.095rem;
+  }
 }
 
 @media (max-width: 650px) {
   .aboutMeBtn {
-    font-size: 0.6rem;
+    font-size: 0.65rem;
+    width: 4.9rem;
+  }
+  .aboutMeBtn:focus {
+    transition-duration: 0.8s;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 580px) {
+  .aboutMeBtn {
+    font-size: 0.55rem;
+    width: 4.1rem;
+  }
+  .aboutMeBtn:focus {
+    transition-duration: 0.8s;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .aboutMeBtn {
+    font-size: 0.5rem;
     width: 3.5rem;
   }
   .aboutMeBtn:focus {
     transition-duration: 0.8s;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
 }
 
-@media (max-width: 460px) {
+@media (max-width: 440px) {
   .aboutMeBtn {
     font-size: 0.4rem;
-    width: 2rem;
+    width: 3.3rem;
+  }
+  .aboutMeBtn:focus {
+    transition-duration: 0.8s;
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 370px) {
+  .aboutMeBtn {
+    font-size: 0.4rem;
+    width: 2.4rem;
   }
   .aboutMeBtn:focus {
     transition-duration: 0.8s;
