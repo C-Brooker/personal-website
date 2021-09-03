@@ -34,6 +34,7 @@ function BlogDisplay() {
   //gets updated with the response (through the setBlogPosts array)
   useEffect(() => {
     dataExtractor();
+    document.title = "My Personal Website";
   }, []);
 
   const buttons = numbersOnButtons(blogList, 3);
