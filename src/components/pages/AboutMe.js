@@ -19,6 +19,10 @@ function AboutMe() {
   return (
     <div>
       <TitleBanner>About me</TitleBanner>
+      <h3 className={styles.status}>Status:</h3>
+      <h4 className={styles.status}>
+        Currently Seeking Opportunities in Software Development
+      </h4>
       <BlogDisplayNav />
       <div className={styles.BtnContainer}>
         <button
