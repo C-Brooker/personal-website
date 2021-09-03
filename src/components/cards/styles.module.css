@@ -68,8 +68,8 @@
   position: relative;
   border-color: black;
   color: black;
-  top: 0;
-  margin-top: 2rem;
+  top: -3rem;
+  margin-bottom: 2rem;
   height: 100%;
   font-family: serif;
 }

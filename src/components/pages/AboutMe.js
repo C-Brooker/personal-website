@@ -28,7 +28,7 @@ function AboutMe() {
         <button
           className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(100);
+            scrollToTop(50);
           }}
         >
           Bio
@@ -36,7 +36,7 @@ function AboutMe() {
         <button
           className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(410);
+            scrollToTop(350);
           }}
         >
           Employment
@@ -44,7 +44,7 @@ function AboutMe() {
         <button
           className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(660);
+            scrollToTop(600);
           }}
         >
           Education
@@ -52,7 +52,7 @@ function AboutMe() {
         <button
           className={styles.aboutMeBtn}
           onClick={() => {
-            scrollToTop(930);
+            scrollToTop(850);
           }}
         >
           Skills
